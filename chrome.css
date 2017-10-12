@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+}
+
+#goc-body, #goc-menu {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    background-color: #fff;
+  }
+}
+#goc-body #goc-ft {
+  margin: 0 0 -100vh;
+  padding: 0 20px 100vh;
+  background-color: #ffffff;
+}
+#goc-body #goc-ft #goc-ft-help {
+  margin: 0 0 50px;
+  padding: 0;
+}
+#goc-body #goc-ft #goc-ft-help #goc-ft-logo {
+  display: none;
+}
+#goc-body #goc-ft nav > ul > li {
+  padding: 0;
+}
+#goc-body #goc-ft nav > ul > li:after {
+  content: " \00b7";
+}
+#goc-body #goc-ft nav > ul > li:last-child:after {
+  content: none;
+}
+#goc-body #goc-ft nav > ul > li a {
+  font-size: 12px;
+  color: #000000;
+}
+#goc-body #goc-ft nav #goc-ft-copyright {
+  font-size: 12px;
+  color: #000000;
+}
+#goc-body #goc-ft #goc-ft-legal {
+  padding: 0;
+}
+
+@media screen and (min-width: 960px) {
+  #goc-body #goc-ft {
+    max-width: none;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #goc-body #goc-ft > section {
+    text-align: left;
+  }
+}
